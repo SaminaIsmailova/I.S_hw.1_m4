@@ -2,8 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     kotlin("kapt")
-    /*id ("com.google.gms.google-services")*/
-}
+    id("com.google.gms.google-services") version "4.3.10"}
 
 android {
     namespace = "com.example.is_hw1_m4"
